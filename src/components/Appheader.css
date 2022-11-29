@@ -1,0 +1,57 @@
+/* .App-logo img{
+    display:flex;
+    transform: translate(-600px, -200px);
+    filter: contrast(300%);
+} */
+.App-header {
+  height: 100%;
+  width: 100%;
+  
+   
+}
+.App-header-container{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    text-align:center;
+}
+.App-header-section{
+   
+    margin-bottom: 100px;
+
+}
+
+
+
+.menu-bar {
+    margin-bottom: 200px;
+    background-color: #00000000;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    font-weight: 1000;
+    color: rgba(0, 0, 0, 0.742);
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px 20px;
+  }
+  
+  .item.title {
+    font-weight: 1000;
+    text-shadow: 0 0 80px rgba(109, 100, 100, 0.671), 0 0 32px rgb(65 120 255 / 24%);
+  }
+  
+  .item:hover {
+    background-color: rgba(0, 0, 0, 0.666);
+  }
+  .group{
+
+    /* height: 100%; */
+    width: 20%;
+  }
+  
